@@ -1,0 +1,35 @@
+{
+  "categories": [
+    {
+      "_id": 1,
+      "name": "category",
+      "display_name": "cat display name",
+      "description": "I am the cat description"
+    },
+    {
+      "description": "I am the updated put description"
+    },
+    {
+      "description": "I am the posted cat description",
+      "display_name": "posted cat displayname",
+      "name": "postedcategory",
+      "_id": "3"
+    }
+  ],
+  "products": [
+    {
+      "_id": 1,
+      "category": "category",
+      "name": "product",
+      "display_name": "prod display name",
+      "description": "I am the prod description"
+    },
+    {
+      "_id": "3",
+      "category": "posted cat3",
+      "description": "posted description",
+      "display_name": "posted name",
+      "name": "posted name"
+    }
+  ]
+}
