@@ -8,6 +8,7 @@
 ### Links and Resources
 * [submission PR](https://github.com/401-advancedjs/simple-api/pull/1)
 * [swagger inspector](https://app.swaggerhub.com/apis/MeStock/HTTP-and-REST/0.1#/)
+* [swagger builder](https://inspector.swagger.io/builder)
 
 #### Documentation
 * [swagger docs](https://swagger.io/docs/) (API servers)
