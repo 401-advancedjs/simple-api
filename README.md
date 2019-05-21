@@ -1,47 +1,31 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## HTTP, REST, and Swagger docs
 
-### Author: Student/Group Name
+### Author: Melissa Stock
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [submission PR](https://github.com/401-advancedjs/simple-api/pull/1)
+* [swagger inspector](https://app.swaggerhub.com/apis/MeStock/HTTP-and-REST/0.1#/)
 
 #### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
-
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
+* [swagger docs](https://swagger.io/docs/) (API servers)
 
 ### Setup
 #### `.env` requirements
 * `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* `json-server --id _id --watch ./data/db.json`
+* Endpoint: `/categories/`
+  * Returns a JSON object with id, name, display name, and description in it.
+* Endpoint: `/products/`
+  * Returns a JSON object with id, category, name, display name, description in it.
   
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* No test
 
 #### UML
-Link to an image of the UML for your application and response to events
+![UML](/data/IMG_0555.jpeg)
+
