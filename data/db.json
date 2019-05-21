@@ -1,0 +1,38 @@
+{
+  "categories": [
+    {
+      "_id": 1,
+      "name": "category",
+      "display_name": "cat display name",
+      "description": "I am the cat description"
+    },
+    {
+      "_id": 2,
+      "name": "dummy data",
+      "display_name": "Hello!",
+      "description": "I am swagger updated dummy data"
+    },
+    {
+      "_id": 4,
+      "name": "dummy data",
+      "display_name": "Hello!",
+      "description": "I am swagger dummy data"
+    }
+  ],
+  "products": [
+    {
+      "_id": 3,
+      "category": "dummy data",
+      "name": "swagger product name",
+      "display_name": "swagger product display name",
+      "description": "swagger put Hello world!"
+    },
+    {
+      "_id": 4,
+      "category": "dummy data",
+      "name": "swagger product name",
+      "display_name": "swagger product display name",
+      "description": "Hello world!"
+    }
+  ]
+}
